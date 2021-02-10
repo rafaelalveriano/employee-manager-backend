@@ -1,4 +1,4 @@
-import { EmpolyeeType } from './empolyeeType'
+import { EmpolyeeType } from './type'
 
 import Database from '../../database'
 

@@ -1,10 +1,13 @@
-import * as Knex from "knex";
+import * as Knex from 'knex'
 
+export const up = async (knex: Knex): Promise<void> =>
+    knex.schema.createTable(
+        'responsabilities',
+        (table: Knex.CreateTableBuilder) => {
+            table.uuid('id').unique().primary().notNullable()
+            table.text('description').notNullable()
+        }
+    )
 
-export async function up(knex: Knex): Promise<void> {
-}
-
-
-export async function down(knex: Knex): Promise<void> {
-}
-
+export const down = async (knex: Knex): Promise<void> =>
+    knex.schema.dropTable('responsabilities')

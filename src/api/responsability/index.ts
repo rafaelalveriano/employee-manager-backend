@@ -1,1 +1,1 @@
-export { default as ResponsabilityOffice } from './responsabilityRoute'
+export { default as ResponsabilityRoute } from './route'

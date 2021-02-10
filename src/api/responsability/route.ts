@@ -1,6 +1,6 @@
 import { Router } from 'express'
-import { list, store, update, remove } from './empolyeeAction'
-import Validator from './empolyeeValidator'
+import { list, store, update, remove } from './action'
+import Validator from './validator'
 const route = '/empolyee/:id?'
 
 export default (router: Router) => {

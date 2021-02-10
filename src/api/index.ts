@@ -1,2 +1,2 @@
-export { default as EmpolyeeRoute } from './empolyee/empolyeeRoute'
-export { default as ResponsabilityRoute } from './responsability/responsabilityRoute'
+export { default as EmpolyeeRoute } from './empolyee/route'
+export { default as ResponsabilityRoute } from './responsability/route'

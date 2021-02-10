@@ -1,1 +1,1 @@
-export { default as EmpolyeeRoute } from './empolyeeRoute'
+export { default as EmpolyeeRoute } from './route'
