@@ -1,7 +1,7 @@
 export interface EmpolyeeType {
-    name: string
-    email: string
+    firstName: string
+    lastName: string
+    responsability: string
     birthdata: string
-    city: string
-    uf: string
+    salary: string
 }

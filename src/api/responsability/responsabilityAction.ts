@@ -3,11 +3,11 @@ import { Request, Response } from 'express'
 import Error from '../../common/error'
 
 export const list = async (req: Request, res: Response) => {
-    res.send('Empolyee')
+    res.send('Responsability')
 }
 
 export const store = async (req: Request, res: Response) => {
-    res.send('Empolyee')
+    res.send('Responsability')
 }
 
 export const update = async (req: Request, res: Response) => {

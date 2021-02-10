@@ -14,7 +14,7 @@ const Server = () => {
 
     app.get('/', (req: Request, res: Response) => res.send('on'))
 
-    console.log('server run')
+    console.log(`server run in http://127.0.0.1:${port}/`)
     return app.listen(port)
 }
 
