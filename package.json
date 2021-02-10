@@ -12,7 +12,10 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",    
+    "express": "^4.17.1",
+    "knex": "^0.21.17",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
     "yup": "^0.32.8"
   },
   "devDependencies": {
