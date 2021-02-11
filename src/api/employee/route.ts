@@ -1,7 +1,7 @@
 import { Router } from 'express'
 import { list, store, update, remove } from './action'
 import Validator from './validator'
-const route = '/empolyee/:id?'
+const route = '/empolyees/:id?'
 
 export default (router: Router) => {
     router.get(route, list)
