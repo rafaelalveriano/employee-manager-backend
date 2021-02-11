@@ -1,4 +1,4 @@
-export interface EmpolyeeType {
+export interface EmployeeType {
     firstName: string
     lastName: string
     responsability: string
